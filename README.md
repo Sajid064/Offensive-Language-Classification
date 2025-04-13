@@ -50,17 +50,17 @@ A multi-label classification project to detect various forms of offensive conten
 
 ---
 
-## 🚀 How to Run
+## 🛠️ Steps to Run the Code
 
-```bash
-pip install -r requirements.txt
+1. **Clone the Repository:**  
+   ```bash
+   git clone https://github.com/your-username/repo-name.git
+   cd repo-name
 
-# For ML models
-python baseline_ml_models.py
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
 
-# For Deep Learning (LSTM/GRU)
-python deep_learning_models.py
-
-# For Transformer-based models
-python transformer_models.py
-
+3. **Run the notebooks:**
+   Execute cells in task/model1_implementation.ipynb
+   Execute cells in task/model2_implementation.ipynb
