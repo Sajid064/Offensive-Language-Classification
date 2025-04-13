@@ -8,7 +8,7 @@ A multi-label classification project to detect various forms of offensive conten
 
 - **Train:** English feedback texts with 6 binary labels:  
   `toxic`, `abusive`, `vulgar`, `menace`, `offense`, `bigotry`
-- **Test:** Multilingual texts (translated to English using `deep-translator`)  
+- **Validation and Test:** Multilingual texts  
   Only the `toxic` label is available for evaluation.
 
 ---
@@ -23,20 +23,10 @@ A multi-label classification project to detect various forms of offensive conten
 ### 🤖 Deep Learning
 - Models: LSTM, GRU
 - Tokenized and padded sequences with Embedding layers
-- Binary Cross Entropy + Sigmoid (Binary Relevance)
 
 ### 🧠 Transformer Models
-- BERT (`bert-base-uncased`)
-- XLM-RoBERTa
+- Models: BERT, XLM-RoBERTa
 - Fine-tuned with dropout + dense layers
-
----
-
-## ⚠️ Key Challenges
-
-- **Class Imbalance:** High accuracy but relatively lower F1-score
-- **Train-Test Mismatch:** Language difference affected performance
-- **Label Availability:** Only `toxic` label provided for test set
 
 ---
 
@@ -64,3 +54,11 @@ A multi-label classification project to detect various forms of offensive conten
 3. **Run the notebooks:**
    - Execute cells in task/model1_implementation.ipynb
    - Execute cells in task/model2_implementation.ipynb
+  
+---
+
+## ⚠️ Key Challenges and Observations
+
+- **Class Imbalance:** High accuracy but relatively lower F1-score
+- **Train-Test Mismatch:** Language difference affected performance
+- **Label Availability:** Only `toxic` label provided for test set
