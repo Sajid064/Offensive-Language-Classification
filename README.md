@@ -44,8 +44,8 @@ A multi-label classification project to detect various forms of offensive conten
 
 1. **Clone the Repository:**  
    ```bash
-   git clone https://github.com/your-username/repo-name.git
-   cd repo-name
+   git clone https://github.com/Sajid064/Offensive-Language-Classification.git
+   cd Offensive-Language-Classification
 
 2. **Install dependencies:**
    ```bash
