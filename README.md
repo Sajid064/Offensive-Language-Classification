@@ -62,5 +62,5 @@ A multi-label classification project to detect various forms of offensive conten
    pip install -r requirements.txt
 
 3. **Run the notebooks:**
-   Execute cells in task/model1_implementation.ipynb
-   Execute cells in task/model2_implementation.ipynb
+   - Execute cells in task/model1_implementation.ipynb
+   - Execute cells in task/model2_implementation.ipynb
