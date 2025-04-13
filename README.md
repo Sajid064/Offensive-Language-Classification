@@ -17,7 +17,7 @@ A multi-label classification project to detect various forms of offensive conten
 
 ### ✅ Machine Learning
 - Models: Logistic Regression (LR), Random Forest (RF)
-- Features: TF-IDF
+- Features: TF-IDF, multilingual sentence embeddings
 - Tuning: Grid Search & Random Search
 
 ### 🤖 Deep Learning
