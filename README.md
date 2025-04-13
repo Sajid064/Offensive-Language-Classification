@@ -32,11 +32,14 @@ A multi-label classification project to detect various forms of offensive conten
 
 ## 📈 Results Summary
 
-| Model          | Accuracy | F1-Score |
-|----------------|----------|----------|
-| LR / RF        | ✅ High  | ⚠️ Moderate |
-| LSTM / GRU     | ✅ High  | ✅ Better   |
-| BERT / XLM-R   | ✅ High  | 🏆 Best     |
+| Model      | Accuracy |   F1-Score   |
+|------------|----------|--------------|
+| **LR**     | ✅ High  | ⚠️ Moderate |
+| **RF**     | ❌ Low   | ❌ Low      |
+| **LSTM**   | ✅ High  | ✅ Better   |
+| **GRU**    | ✅ High  | ✅ Better   |
+| **BERT**   | ✅ High  | 🏆 Best     |
+| **XLM-R**  | ✅ High  | 🏆 Best     |
 
 ---
 
